@@ -3,7 +3,7 @@
 **stat_arb_research** is a repository dedicated to testing and analyzing two statistical arbitrage strategies on the top 10 cryptocurrencies by market cap, as listed on [coinmarketcap.com](https://coinmarketcap.com/) .
 
 ## Data:
-The data for this project is obtained from [Kaggle](https://www.kaggle.com/datasets/jorijnsmit/binance-full-history) and contains 1 minute OHLCV data for the top 10 cryptocurrencies by market cap, as listed on [coinmarketcap.com](https://coinmarketcap.com/) . The data is available from 2017-08-17 04:00:00 to 2021-08-17 04:00:00.
+The data for this project is obtained from [Kaggle](https://www.kaggle.com/datasets/jorijnsmit/binance-full-history) and contains 1 minute OHLCV data for the top 10 cryptocurrencies by market cap, as listed on [coinmarketcap.com](https://coinmarketcap.com/) . The data is available from 2017-08-17 04:00:00 to 2022-11-16 23:59:00.
 <br>
 <br>
 The data necessary for this project can also be obtained from [Binance](https://www.binance.com/en/binance-api) API, using the *binanceDataGather.py* script, but it should be noted that the process is very time-consuming due to the rate limits imposed by the API. The script is provided for reference purposes only.
