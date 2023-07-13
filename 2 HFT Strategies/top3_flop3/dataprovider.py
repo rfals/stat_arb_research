@@ -26,8 +26,8 @@ class CryptoMinuteDataProvider:
 
     def _load_data(self):
         print('[INFO] Rebuilding raw data from Parquet files')
-        first_date = '2020-08-20 00:01:00'
-        last_date = '2020-11-15 00:00:00'
+        first_date = '2022-05-01 00:00:00'
+        last_date = '2023-05-01 00:00:00'
         datetime_range = pd.date_range(first_date, last_date, freq='min')
         datetime_range = pd.DataFrame(datetime_range)
         datetime_range.columns = ['Date']
